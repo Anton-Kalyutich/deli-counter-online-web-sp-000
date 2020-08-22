@@ -9,7 +9,7 @@ def line(katz_deli)
     output = "The line is currently: "
     array = []
     katz_deli.each_with_index do |name, index|
-      array << " #{index+1}. #{name}"
+      array << "#{index+1}. #{name}"
       
     end
     
