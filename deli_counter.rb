@@ -1,3 +1,5 @@
+katz_deli = []
+
 def line(queue)
   if queue.length == 0
     output = "The line is currently empty"
