@@ -10,5 +10,5 @@ def line(katz_deli)
       output << "#{index+1}. #{name}"
     end
   end
-  output
+  puts output
 end
