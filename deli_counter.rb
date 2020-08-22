@@ -6,8 +6,8 @@ def line(katz_deli)
     output = "The line is currently empty"
   else
     array = []
-    katz_deli.each_with_index do |element, index|
-      array << 
+    katz_deli.each_with_index do |name, index|
+      array << "#{index+1}. "
   end
   output
 end
