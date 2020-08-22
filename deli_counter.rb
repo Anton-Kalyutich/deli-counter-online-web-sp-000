@@ -10,7 +10,6 @@ def line(katz_deli)
     array = []
     katz_deli.each_with_index do |name, index|
       array << "#{index+1}. #{name}"
-      
     end
     
   end
