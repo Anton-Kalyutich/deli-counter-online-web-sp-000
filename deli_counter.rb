@@ -10,7 +10,7 @@ def line(katz_deli)
     katz_deli.slice(0, l-1).each_with_index do |name, index|
       output << "#{index+1}. #{name} "
     end
-    output << "#{katz_deli.length}. #{katz_deli.last}"
+    output << "#{l}. #{katz_deli.last}"
   end
   puts output
 end
