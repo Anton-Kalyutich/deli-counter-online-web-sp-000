@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     array = []
     katz_deli.each_with_index do |element, index|
-      
+      array << 
   end
   output
 end
