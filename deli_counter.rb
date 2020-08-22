@@ -9,7 +9,7 @@ def line(katz_deli)
     katz_deli.slice(0, -1).each_with_index do |name, index|
       output << "#{index+1}. #{name} "
     end
-    output << 
+    output << katz_deli.last
   end
   puts output
 end
